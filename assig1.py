@@ -26,7 +26,7 @@ result =a+" "+b
 print(result)
 
 
-# #Question 3
+# QUESTION 3
 # Write a Python program to add 'ing' at the end of a given string (length should be at least 3). 
 # If the given string already ends with 'ing' then add 'ly' instead. 
 # If the string length of the given string is less than 3, leave it unchanged
@@ -43,7 +43,7 @@ else:
 print(result)
 
 
-#Queation 4
+#QUESTION 4
 # Write a Python program to remove the nth index character from a nonempty string
 # Write a Python program to remove the characters which have odd index values of a given string.
 # Swap commas and dots in string.
