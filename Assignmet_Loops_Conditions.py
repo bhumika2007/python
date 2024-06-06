@@ -3,15 +3,14 @@
 
 # WAP Ask user to input a number and then month name corresponding to that number  
 
-month_names = ["January","February","March","April",
-               "May","June","July","August","September",
-               "October","November","December"] 
+month_names = ["January","February","March","April","May","June","July","August",
+               "September","October","November","December"] 
  
 number = int(input("Enter a number(1-12):"))
 
 if 1<= number <= 12:
-   print(f"The month corresponding to that number {number} 
-         is {month_names[number-1]}")
+   print("The month corresponding to that number is:",
+         month_names[number-1])
 else:
    print("invalid number.")   
 
