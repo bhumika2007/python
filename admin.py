@@ -67,7 +67,7 @@ def delete_movie(movies):
     else:
         index = input_int("Enter the movie index to delete:")-1
         if 0 <= index <len (movies):
-            removed_movie = movies.pap(index) 
+            removed_movie = movies.pop(index) 
             print(f"Movie '{removed_movie['name']}'deleted successfully.")  
         else:
             print("invalid index.")
